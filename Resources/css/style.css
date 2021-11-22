@@ -53,3 +53,18 @@ a {
   display: inline-block;
   padding-left: 20px;
 }
+
+/* Banner Section */
+#banner {
+  width: 100%;
+  height: 1000px;
+  text-align: center;
+  background-image: url("../images/Banner\ .jpg");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 85px auto;
+}
