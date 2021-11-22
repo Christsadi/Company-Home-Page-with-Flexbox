@@ -28,6 +28,7 @@ a {
   width: 100%;
   position: fixed;
   background-color: rgb(61, 61, 61);
+  z-index: 5;
 }
 
 .logo {
@@ -67,4 +68,20 @@ a {
   justify-content: center;
   align-items: center;
   margin: 85px auto;
+}
+
+.mission {
+  background-color: black;
+  width: 100%;
+  opacity: 0.8;
+}
+
+.mission h2 {
+  font-size: 35px;
+  padding: 10px;
+}
+
+.mission p {
+  font-size: 25px;
+  padding: 10px;
 }
