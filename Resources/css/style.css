@@ -67,7 +67,6 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 85px auto;
 }
 
 .mission {
@@ -84,4 +83,30 @@ a {
 .mission p {
   font-size: 25px;
   padding: 10px;
+}
+
+/* Portfolio Section*/
+
+#portfolio {
+  max-width: 1000px;
+  min-height: 500px;
+  text-align: center;
+  background-color: rgb(61, 61, 61);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.portfolio {
+  width: 1000px;
+  padding: 10px;
+  margin: 0 auto;
+  display: block;
+}
+
+.container img {
+  width: 250px;
+  height: 250px;
+  padding: 10px 10px;
 }
