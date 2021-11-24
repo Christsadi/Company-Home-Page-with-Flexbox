@@ -13,11 +13,6 @@ html {
   margin: 85px auto;
 }
 
-a {
-  color: rgb(218, 218, 218);
-  text-decoration: none;
-}
-
 /* Header Section */
 #header {
   top: 0;
@@ -89,21 +84,39 @@ a {
 
 #portfolio {
   max-width: 1000px;
-  min-height: 500px;
+  min-height: auto;
   text-align: center;
   background-color: rgb(61, 61, 61);
-  display: inline-flex;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+
+  margin: 0 auto;
 }
 
-.portfolio {
-  width: 1000px;
-  padding: 10px;
+#portfolio h2 {
+  padding-top: 40px;
+  font-size: 35px;
+}
+
+#portfolio h3 {
+  padding-bottom: 40px;
+  font-size: 22px;
+}
+
+.products {
+  width: 100%;
+  height: auto;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px;
 }
 
 .container img {
   width: 250px;
   height: 250px;
-  padding: 10px 10px;
+  padding: 20px 20px;
 }
