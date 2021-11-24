@@ -56,6 +56,31 @@ html {
   padding-left: 20px;
 }
 
+@media only screen and (max-width: 600px) {
+  #header {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .logo {
+    display: flex;
+    padding: 20px 10px 0;
+  }
+
+  .nav {
+    display: flex;
+    padding: 30px 10px 20px;
+  }
+
+  .logo h1 {
+    font-size: 20px;
+  }
+
+  .nav li {
+    padding-left: 12px;
+  }
+}
+
 /* Banner Section */
 #banner {
   width: 100%;
