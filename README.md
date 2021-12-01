@@ -26,7 +26,7 @@ In this project, I use flexbox to design and build the layout for a company’s 
 
 ## Screenshots
 
-![Example screenshot](./assets/images/screenshot.png)
+![Example screenshot](./resources/images/screenshot.png)
 
 ## Setup
 
